@@ -51,7 +51,7 @@ int main()
     std::wcout << "Enter the file extension: ";
     std::getline(std::wcin, extension);
 
-    std::wcout << "Enter the search string: ";
+    std::wcout << "Enter the search sstring: ";
     std::getline(std::wcin, searchString);
 
     TraverseDirectories(rootPath, extension, searchString);
